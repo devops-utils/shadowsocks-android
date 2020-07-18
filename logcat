@@ -252,3 +252,130 @@ cp ./mobile/build/intermediates/merged_manifests/debug/arm64-v8a/AndroidManifest
 2020-07-18 13:47:50.554 17952-17979/com.github.shadowsocks D/NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: true
 2020-07-18 13:47:51.332 17952-17979/com.github.shadowsocks D/skia: --- SkAndroidCodec::NewFromStream returned null
 2020-07-18 13:48:00.820 17952-18080/? W/FirebaseInstanceId: Token retrieval failed without exception message. Will retry token retrieval
+
+
+    Process: com.google.process.gapps, PID: 29871
+    java.lang.RuntimeException: Unable to get provider com.google.android.gsf.settings.GoogleSettingsProvider: java.lang.SecurityException: You need MANAGE_USERS permission to: get the profile parent
+        at android.app.ActivityThread.installProvider(ActivityThread.java:7215)
+        at android.app.ActivityThread.installContentProviders(ActivityThread.java:6699)
+        at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6600)
+        at android.app.ActivityThread.-wrap2(Unknown Source:0)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+        at android.os.Handler.dispatchMessage(Handler.java:108)
+        at android.os.Looper.loop(Looper.java:166)
+        at android.app.ActivityThread.main(ActivityThread.java:7529)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:245)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:921)
+     Caused by: java.lang.SecurityException: You need MANAGE_USERS permission to: get the profile parent
+        at android.os.Parcel.readException(Parcel.java:1954)
+        at android.os.Parcel.readException(Parcel.java:1900)
+        at android.os.IUserManager$Stub$Proxy.getProfileParent(IUserManager.java:1081)
+        at android.os.UserManager.getProfileParent(UserManager.java:2023)
+        at com.google.android.gsf.settings.GoogleSettingsProvider.onCreate(GoogleSettingsProvider.java:153)
+        at android.content.ContentProvider.attachInfo(ContentProvider.java:1921)
+        at android.content.ContentProvider.attachInfo(ContentProvider.java:1896)
+        at android.app.ActivityThread.installProvider(ActivityThread.java:7212)
+        at android.app.ActivityThread.installContentProviders(ActivityThread.java:6699) 
+        at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6600) 
+        at android.app.ActivityThread.-wrap2(Unknown Source:0) 
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066) 
+        at android.os.Handler.dispatchMessage(Handler.java:108) 
+        at android.os.Looper.loop(Looper.java:166) 
+        at android.app.ActivityThread.main(ActivityThread.java:7529) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:245) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:921) 
+2020-07-18 14:49:20.279 747-979/? I/hash_map_utils: key: 'typec_need_show_hires' value: ''
+2020-07-18 14:49:20.279 854-854/? I/HwAudioService: check HiRes Icon false
+2020-07-18 14:49:20.280 854-854/? W/ActivityManager: Sending non-protected broadcast huawei.intent.action.hideHiResIcon from system uid 1000 pkg null
+2020-07-18 14:49:20.280 854-854/? I/HwAudioService: broadcastHiresIntent : false
+2020-07-18 14:49:20.280 854-854/? W/ActivityManager: Sending non-protected broadcast huawei.intent.action.hideHiResIcon from system uid 1000 pkg null
+2020-07-18 14:49:20.282 1515-1515/? D/StatusBarIconController: setIconVisibility icon is null or visibility not change visibility=false
+2020-07-18 14:49:20.283 854-3342/? E/ReportTools: This is not beta user build
+2020-07-18 14:49:20.284 29871-29871/? I/Process: Sending signal. PID: 29871 SIG: 9
+2020-07-18 14:49:20.337 854-4615/? I/ActivityManager: Process com.google.process.gapps (pid 29871) has died: fore SVC
+2020-07-18 14:49:20.338 854-4615/? D/ActivityManager: cleanUpApplicationRecord app: ProcessRecord{cf68ee1 29871:com.google.process.gapps/u0a139}, app.bad: false, restarting: false, allowRestart: true
+2020-07-18 14:49:20.341 854-4615/? I/ActivityManager: startProcess: reset pid for ProcessRecord{cf68ee1 0:com.google.process.gapps/u0a139}
+2020-07-18 14:49:20.342 854-1339/? W/AwareLog: SchedLevelBoost: onProcessDied config not set!
+2020-07-18 14:49:20.343 1872-16078/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2020-07-18 14:49:20.343 1872-25571/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2020-07-18 14:49:20.343 1872-16078/? I/MediaProcessHandler: processOp opType: 1, uid: 10139, pid: 29871
+2020-07-18 14:49:20.343 1872-25571/? I/MediaProcessHandler: processOp opType: 1, uid: 10139, pid: 29871
+2020-07-18 14:49:20.343 1872-16078/? W/MediaProcessHandler: remove target not exist, maybe the UI process: uid: 10139, pid: 29871
+2020-07-18 14:49:20.343 1872-16078/? I/MediaProcessHandler: executedCallBack opType: 1 mMediaStatusObservers.size=0
+2020-07-18 14:49:20.343 1872-25571/? W/MediaProcessHandler: remove target not exist, maybe the UI process: uid: 10139, pid: 29871
+2020-07-18 14:49:20.343 1872-25571/? I/MediaProcessHandler: executedCallBack opType: 1 mMediaStatusObservers.size=0
+2020-07-18 14:49:20.356 854-4615/? I/ActivityManager: Start proc 29890:com.google.process.gapps/u0a139 for restart com.google.process.gapps
+2020-07-18 14:49:20.362 29890-29890/? I/zygote64: Reinit property: dalvik.vm.checkjni= false
+2020-07-18 14:49:20.363 854-1113/? W/ActivityManager: Ignoring remove of inactive process: ProcessRecord{a5cd116 0:com.google.process.gapps/u0a139}
+2020-07-18 14:49:20.376 29890-29890/? D/ActivityThread: ActivityThread,attachApplication
+2020-07-18 14:49:20.377 854-4615/? D/ActivityManager: ActivityManagerService,attachApplication,callingPid = 29890
+2020-07-18 14:49:20.387 659-659/? I/audio_hw_primary: usb_ext_get_parameters: check show hires (false)
+2020-07-18 14:49:20.387 747-979/? I/hash_map_utils: key: 'typec_need_show_hires' value: ''
+2020-07-18 14:49:20.387 854-854/? I/HwAudioService: check HiRes Icon false
+2020-07-18 14:49:20.388 854-854/? W/ActivityManager: Sending non-protected broadcast huawei.intent.action.hideHiResIcon from system uid 1000 pkg null
+2020-07-18 14:49:20.388 854-854/? I/HwAudioService: broadcastHiresIntent : false
+2020-07-18 14:49:20.388 854-854/? W/ActivityManager: Sending non-protected broadcast huawei.intent.action.hideHiResIcon from system uid 1000 pkg null
+2020-07-18 14:49:20.389 1515-1515/? D/StatusBarIconController: setIconVisibility icon is null or visibility not change visibility=false
+2020-07-18 14:49:20.393 411-411/? W//system/bin/hwservicemanager: Cannot open /odm/manifest.xml
+2020-07-18 14:49:20.409 411-411/? W//system/bin/hwservicemanager: Cannot open /odm/manifest.xml
+2020-07-18 14:49:20.411 652-652/? I/GRALLOC: 	 shrFd=10,fmt=0x1,intFmt=0x1,btStrd=256,size=4096,pid=652
+    	 yuv=2,w=16,h=16,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=4096,conUsg=0x100,proUsg=0x100,	 strd=64,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1
+2020-07-18 14:49:20.412 29890-29890/? D/HwFLClassLoader: get used feature list :/feature/used-list failed!
+2020-07-18 14:49:20.412 29890-29890/? D/HwFLClassLoader: USE_FEATURE_LIST had not init!
+2020-07-18 14:49:20.417 29890-29904/? I/HwApiCacheMangerEx: apicache mCurPackageName=com.google.android.gsf uptimes=1059561278
+2020-07-18 14:49:20.418 29890-29904/? I/HwApiCacheMangerEx: apicache oUid null
+2020-07-18 14:49:20.419 29890-29904/? I/HwApiCacheMangerEx: apicache volumes null
+2020-07-18 14:49:20.421 29890-29904/? I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.google.android.gsf#10139#256
+2020-07-18 14:49:20.422 29890-29904/? I/HwApiCacheMangerEx: apicache oUid 10139
+2020-07-18 14:49:20.422 29890-29904/? I/HwApiCacheMangerEx: apicache volumes null
+2020-07-18 14:49:20.423 29890-29904/? I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.google.android.gsf#10139#0
+2020-07-18 14:49:20.423 29890-29904/? I/HwApiCacheMangerEx: apicache async read begin packageName=com.google.android.gsf userid=0
+2020-07-18 14:49:20.423 29890-29904/? I/HwApiCacheMangerEx: apicache pi null
+2020-07-18 14:49:20.425 29890-29904/? I/chatty: uid=10139(u0_a139) queued-work-loo identical 1 line
+2020-07-18 14:49:20.426 29890-29904/? I/HwApiCacheMangerEx: apicache pi null
+2020-07-18 14:49:20.430 29890-29904/? I/HwApiCacheMangerEx: apicache oUid null
+2020-07-18 14:49:20.430 29890-29904/? I/HwApiCacheMangerEx: apicache async read finished packageName=com.google.android.gsf userid=0 totalus=7272
+2020-07-18 14:49:20.440 29890-29890/? I/HwApiCacheMangerEx: apicache pi null
+2020-07-18 14:49:20.450 854-4615/? W/System.err: java.lang.SecurityException: You need MANAGE_USERS permission to: get the profile parent
+2020-07-18 14:49:20.450 854-4615/? W/System.err:     at com.android.server.pm.UserManagerService.checkManageUsersPermission(UserManagerService.java:1714)
+2020-07-18 14:49:20.450 854-4615/? W/System.err:     at com.android.server.pm.UserManagerService.getProfileParent(UserManagerService.java:765)
+2020-07-18 14:49:20.450 854-4615/? W/System.err:     at android.os.IUserManager$Stub.onTransact(IUserManager.java:262)
+2020-07-18 14:49:20.450 854-4615/? W/System.err:     at com.android.server.pm.HwUserManagerService.onTransact(HwUserManagerService.java:108)
+2020-07-18 14:49:20.450 854-4615/? W/System.err:     at android.os.Binder.execTransact(Binder.java:675)
+2020-07-18 14:49:20.451 29890-29890/? D/AndroidRuntime: Shutting down VM
+2020-07-18 14:49:20.453 29890-29890/? E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.google.process.gapps, PID: 29890
+    java.lang.RuntimeException: Unable to get provider com.google.android.gsf.settings.GoogleSettingsProvider: java.lang.SecurityException: You need MANAGE_USERS permission to: get the profile parent
+        at android.app.ActivityThread.installProvider(ActivityThread.java:7215)
+        at android.app.ActivityThread.installContentProviders(ActivityThread.java:6699)
+        at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6600)
+        at android.app.ActivityThread.-wrap2(Unknown Source:0)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+        at android.os.Handler.dispatchMessage(Handler.java:108)
+        at android.os.Looper.loop(Looper.java:166)
+        at android.app.ActivityThread.main(ActivityThread.java:7529)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:245)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:921)
+     Caused by: java.lang.SecurityException: You need MANAGE_USERS permission to: get the profile parent
+        at android.os.Parcel.readException(Parcel.java:1954)
+        at android.os.Parcel.readException(Parcel.java:1900)
+        at android.os.IUserManager$Stub$Proxy.getProfileParent(IUserManager.java:1081)
+        at android.os.UserManager.getProfileParent(UserManager.java:2023)
+        at com.google.android.gsf.settings.GoogleSettingsProvider.onCreate(GoogleSettingsProvider.java:153)
+        at android.content.ContentProvider.attachInfo(ContentProvider.java:1921)
+        at android.content.ContentProvider.attachInfo(ContentProvider.java:1896)
+        at android.app.ActivityThread.installProvider(ActivityThread.java:7212)
+        at android.app.ActivityThread.installContentProviders(ActivityThread.java:6699) 
+        at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6600) 
+        at android.app.ActivityThread.-wrap2(Unknown Source:0) 
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066) 
+        at android.os.Handler.dispatchMessage(Handler.java:108) 
+        at android.os.Looper.loop(Looper.java:166) 
+        at android.app.ActivityThread.main(ActivityThread.java:7529) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:245) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:921) 
