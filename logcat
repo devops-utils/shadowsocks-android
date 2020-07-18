@@ -1,0 +1,254 @@
+mkdir ./mobile/build/intermediates/merged_manifests/debug/universal
+cp ./mobile/build/intermediates/merged_manifests/debug/arm64-v8a/AndroidManifest.xml ./mobile/build/intermediates/merged_manifests/debug/universal/AndroidManifest.xml
+
+
+2020-07-18 13:47:29.828 17952-17952/com.github.shadowsocks I/zygote64: Late-enabling -Xcheck:jni
+2020-07-18 13:47:29.864 17952-17952/com.github.shadowsocks I/zygote64: Reinit property: dalvik.vm.checkjni= false
+2020-07-18 13:47:29.895 17952-17952/com.github.shadowsocks D/ActivityThread: ActivityThread,attachApplication
+2020-07-18 13:47:29.986 17952-17970/com.github.shadowsocks I/HwApiCacheMangerEx: apicache mCurPackageName=com.github.shadowsocks uptimes=1055850848
+2020-07-18 13:47:29.987 17952-17952/com.github.shadowsocks D/HwFLClassLoader: get used feature list :/feature/used-list failed!
+2020-07-18 13:47:29.988 17952-17952/com.github.shadowsocks D/HwFLClassLoader: USE_FEATURE_LIST had not init!
+2020-07-18 13:47:29.988 17952-17970/com.github.shadowsocks I/HwApiCacheMangerEx: apicache oUid null
+2020-07-18 13:47:29.989 17952-17970/com.github.shadowsocks I/HwApiCacheMangerEx: apicache volumes null
+2020-07-18 13:47:29.990 17952-17970/com.github.shadowsocks I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.github.shadowsocks#10175#256
+2020-07-18 13:47:29.992 17952-17970/com.github.shadowsocks I/HwApiCacheMangerEx: apicache oUid 10175
+2020-07-18 13:47:29.992 17952-17970/com.github.shadowsocks I/HwApiCacheMangerEx: apicache volumes null
+2020-07-18 13:47:29.993 17952-17970/com.github.shadowsocks I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.github.shadowsocks#10175#0
+2020-07-18 13:47:29.993 17952-17970/com.github.shadowsocks I/HwApiCacheMangerEx: apicache async read begin packageName=com.github.shadowsocks userid=0
+2020-07-18 13:47:29.994 17952-17970/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi null
+2020-07-18 13:47:29.996 17952-17970/com.github.shadowsocks I/chatty: uid=10175(u0_a175) queued-work-loo identical 1 line
+2020-07-18 13:47:29.998 17952-17970/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi null
+2020-07-18 13:47:30.000 17952-17970/com.github.shadowsocks I/HwApiCacheMangerEx: apicache oUid null
+2020-07-18 13:47:30.001 17952-17970/com.github.shadowsocks I/HwApiCacheMangerEx: apicache async read finished packageName=com.github.shadowsocks userid=0 totalus=7328
+2020-07-18 13:47:30.017 17952-17952/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi null
+2020-07-18 13:47:30.082 17952-17976/com.github.shadowsocks W/ContextImpl: Failed to ensure /data/user/0/com.google.android.gms/shared_prefs: mkdir failed: EACCES (Permission denied)
+2020-07-18 13:47:30.090 17952-17976/com.github.shadowsocks V/FA: Deferring to Google Analytics for Firebase for event data collection. https://goo.gl/J1sWQy
+2020-07-18 13:47:30.096 17952-17952/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi PackageInfo{873da04 com.github.shadowsocks}
+2020-07-18 13:47:30.099 17952-17989/com.github.shadowsocks I/DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:11 and remote module com.google.android.gms.measurement.dynamite:0
+2020-07-18 13:47:30.099 17952-17989/com.github.shadowsocks I/DynamiteModule: Selected local version of com.google.android.gms.measurement.dynamite
+2020-07-18 13:47:30.101 17952-17952/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi PackageInfo{873da04 com.github.shadowsocks}
+2020-07-18 13:47:30.119 17952-17952/com.github.shadowsocks I/CrashlyticsCore: Initializing Crashlytics Core 2.7.0.33
+2020-07-18 13:47:30.123 17952-17952/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi PackageInfo{873da04 com.github.shadowsocks}
+2020-07-18 13:47:30.133 17952-17952/com.github.shadowsocks V/FA: Registered activity lifecycle callback
+2020-07-18 13:47:30.157 17952-17993/com.github.shadowsocks W/ContextImpl: Failed to ensure /data/user/0/com.google.android.gms/shared_prefs: mkdir failed: EACCES (Permission denied)
+2020-07-18 13:47:30.208 17952-18007/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi PackageInfo{873da04 com.github.shadowsocks}
+2020-07-18 13:47:30.218 17952-18007/com.github.shadowsocks V/FA: App measurement collection enabled
+2020-07-18 13:47:30.223 17952-18029/com.github.shadowsocks D/FirebaseRemoteConfig: Persisted config file was not found.
+    java.io.FileNotFoundException: /data/user_de/0/com.github.shadowsocks/files/persisted_config (No such file or directory)
+        at java.io.FileInputStream.open0(Native Method)
+        at java.io.FileInputStream.open(FileInputStream.java:200)
+        at java.io.FileInputStream.<init>(FileInputStream.java:150)
+        at android.app.ContextImpl.openFileInput(ContextImpl.java:578)
+        at android.content.ContextWrapper.openFileInput(ContextWrapper.java:189)
+        at com.google.firebase.remoteconfig.internal.LegacyConfigsHandler.readPersistedConfig(com.google.firebase:firebase-config@@19.1.1:339)
+        at com.google.firebase.remoteconfig.internal.LegacyConfigsHandler.getConvertedLegacyConfigs(com.google.firebase:firebase-config@@19.1.1:196)
+        at com.google.firebase.remoteconfig.internal.LegacyConfigsHandler.saveLegacyConfigsIfNecessary(com.google.firebase:firebase-config@@19.1.1:151)
+        at com.google.firebase.remoteconfig.RemoteConfigComponent$$Lambda$4.call(Unknown Source:2)
+        at com.google.android.gms.tasks.zzv.run(Unknown Source:2)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+        at java.lang.Thread.run(Thread.java:784)
+2020-07-18 13:47:30.227 17952-18007/com.github.shadowsocks V/FA: App measurement enabled for app package, google app id: com.github.shadowsocks, 1:261400168171:android:dbdd6331c434162f
+2020-07-18 13:47:30.242 17952-17952/com.github.shadowsocks I/HwCust: Constructor found for class android.net.HwCustConnectivityManagerImpl
+2020-07-18 13:47:30.243 17952-17952/com.github.shadowsocks D/HwCust: Create obj success use class android.net.HwCustConnectivityManagerImpl
+2020-07-18 13:47:30.250 17952-18007/com.github.shadowsocks I/FA: App measurement initialized, version: 21028
+2020-07-18 13:47:30.251 17952-18007/com.github.shadowsocks I/FA: To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+2020-07-18 13:47:30.252 17952-18007/com.github.shadowsocks I/FA: To enable faster debug mode event logging run:
+      adb shell setprop debug.firebase.analytics.app com.github.shadowsocks
+2020-07-18 13:47:30.252 17952-18007/com.github.shadowsocks D/FA: Debug-level message logging enabled
+2020-07-18 13:47:30.253 17952-18007/com.github.shadowsocks V/FA: Persisting first open: 1595051250127
+2020-07-18 13:47:30.285 17952-18007/com.github.shadowsocks V/FA: App measurement setting deferred collection: false
+2020-07-18 13:47:30.297 17952-18007/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi PackageInfo{28a7fbf com.github.shadowsocks}
+2020-07-18 13:47:30.485 17952-17952/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi PackageInfo{28a7fbf com.github.shadowsocks}
+2020-07-18 13:47:30.530 17952-17952/com.github.shadowsocks E/Minikin: Could not get cmap table size!
+2020-07-18 13:47:30.530 17952-17970/com.github.shadowsocks E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2020-07-18 13:47:30.551 17952-17952/com.github.shadowsocks I/HwCust: Constructor found for class android.app.HwCustActivityImpl
+2020-07-18 13:47:30.551 17952-17952/com.github.shadowsocks D/HwCust: Create obj success use class android.app.HwCustActivityImpl
+2020-07-18 13:47:30.571 17952-17952/com.github.shadowsocks V/HwPolicyFactory: : success to get AllImpl object and return....
+2020-07-18 13:47:30.575 17952-17952/com.github.shadowsocks I/HwCust: Constructor found for class android.app.HwCustHwWallpaperManagerImpl
+2020-07-18 13:47:30.575 17952-17952/com.github.shadowsocks D/HwCust: Create obj success use class android.app.HwCustHwWallpaperManagerImpl
+2020-07-18 13:47:30.591 17952-17952/com.github.shadowsocks V/HwWidgetFactory: : successes to get AllImpl object and return....
+2020-07-18 13:47:30.595 17952-17952/com.github.shadowsocks V/ActivityThread: ActivityThread,callActivityOnCreate
+2020-07-18 13:47:30.681 17952-17952/com.github.shadowsocks I/zygote64: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+2020-07-18 13:47:30.681 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, androidx.core.view.OnApplyWindowInsetsListener) (ViewCompat.java:2436)
+2020-07-18 13:47:30.681 17952-17952/com.github.shadowsocks I/zygote64:     at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:779)
+2020-07-18 13:47:30.681 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
+2020-07-18 13:47:30.681 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
+2020-07-18 13:47:30.681 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
+2020-07-18 13:47:30.681 17952-17952/com.github.shadowsocks I/zygote64:     at void com.github.shadowsocks.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:159)
+2020-07-18 13:47:30.681 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)
+2020-07-18 13:47:30.681 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1218)
+2020-07-18 13:47:30.681 17952-17952/com.github.shadowsocks I/zygote64:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)
+2020-07-18 13:47:30.681 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3411)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.-wrap12(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1994)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:108)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.os.Looper.loop() (Looper.java:166)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7529)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:245)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:921)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64: Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/com.github.shadowsocks-1GECJSEp9h4FdoyBhzF36g==/base.apk"],nativeLibraryDirectories=[/data/app/com.github.shadowsocks-1GECJSEp9h4FdoyBhzF36g==/lib/arm64, /data/app/com.github.shadowsocks-1GECJSEp9h4FdoyBhzF36g==/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64, /product/lib64]]
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, androidx.core.view.OnApplyWindowInsetsListener) (ViewCompat.java:2436)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:779)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void com.github.shadowsocks.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:159)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1218)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3411)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.-wrap12(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1994)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:108)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.os.Looper.loop() (Looper.java:166)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7529)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:245)
+2020-07-18 13:47:30.682 17952-17952/com.github.shadowsocks I/zygote64:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:921)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, androidx.core.view.OnApplyWindowInsetsListener) (ViewCompat.java:2436)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:779)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void com.github.shadowsocks.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:159)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1218)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3411)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.-wrap12(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1994)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:108)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.os.Looper.loop() (Looper.java:166)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7529)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:245)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:921)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64: Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/com.github.shadowsocks-1GECJSEp9h4FdoyBhzF36g==/base.apk"],nativeLibraryDirectories=[/data/app/com.github.shadowsocks-1GECJSEp9h4FdoyBhzF36g==/lib/arm64, /data/app/com.github.shadowsocks-1GECJSEp9h4FdoyBhzF36g==/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64, /product/lib64]]
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, androidx.core.view.OnApplyWindowInsetsListener) (ViewCompat.java:2436)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:779)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void com.github.shadowsocks.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:159)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1218)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3411)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.-wrap12(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1994)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:108)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.os.Looper.loop() (Looper.java:166)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7529)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:245)
+2020-07-18 13:47:30.683 17952-17952/com.github.shadowsocks I/zygote64:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:921)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, androidx.core.view.OnApplyWindowInsetsListener) (ViewCompat.java:2436)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:779)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void com.github.shadowsocks.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:159)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1218)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3411)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.-wrap12(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1994)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:108)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.os.Looper.loop() (Looper.java:166)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7529)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:245)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:921)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64: Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/com.github.shadowsocks-1GECJSEp9h4FdoyBhzF36g==/base.apk"],nativeLibraryDirectories=[/data/app/com.github.shadowsocks-1GECJSEp9h4FdoyBhzF36g==/lib/arm64, /data/app/com.github.shadowsocks-1GECJSEp9h4FdoyBhzF36g==/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64, /product/lib64]]
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, androidx.core.view.OnApplyWindowInsetsListener) (ViewCompat.java:2436)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:779)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void com.github.shadowsocks.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:159)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1218)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3411)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.-wrap12(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1994)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:108)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.os.Looper.loop() (Looper.java:166)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7529)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:245)
+2020-07-18 13:47:30.684 17952-17952/com.github.shadowsocks I/zygote64:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:921)
+2020-07-18 13:47:30.713 17952-17952/com.github.shadowsocks D/HwRTBlurUtils: check blur style for HwPhoneWindow, themeResId : 0x7f1301e6, context : com.github.shadowsocks.MainActivity@cf5166, Nhwext : 0, get Blur : disable with , null
+2020-07-18 13:47:30.714 17952-17952/com.github.shadowsocks D/HwRTBlurUtils: check blur style for HwPhoneWindow, themeResId : 0x7f1301e6, context : com.github.shadowsocks.MainActivity@cf5166, Nhwext : 0, get Blur : disable with , null
+2020-07-18 13:47:30.727 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+2020-07-18 13:47:30.729 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+2020-07-18 13:47:30.730 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+2020-07-18 13:47:30.731 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+2020-07-18 13:47:30.732 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+2020-07-18 13:47:30.733 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+2020-07-18 13:47:30.734 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+2020-07-18 13:47:30.735 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+2020-07-18 13:47:30.821 17952-18023/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi PackageInfo{873da04 com.github.shadowsocks}
+2020-07-18 13:47:30.832 17952-18007/com.github.shadowsocks V/FA: Checking service availability
+2020-07-18 13:47:30.833 17952-17957/com.github.shadowsocks I/zygote64: Do partial code cache collection, code=29KB, data=21KB
+2020-07-18 13:47:30.833 17952-17957/com.github.shadowsocks I/zygote64: After code cache collection, code=29KB, data=21KB
+2020-07-18 13:47:30.834 17952-17957/com.github.shadowsocks I/zygote64: Increasing code cache capacity to 128KB
+2020-07-18 13:47:30.836 17952-18007/com.github.shadowsocks V/FA: Service available
+2020-07-18 13:47:30.838 17952-18007/com.github.shadowsocks V/FA: Connecting to remote service
+2020-07-18 13:47:30.887 17952-18007/com.github.shadowsocks V/FA: Detected application was in foreground
+2020-07-18 13:47:30.916 17952-18007/com.github.shadowsocks V/FA: Session started, time: 1055851778
+2020-07-18 13:47:31.044 17952-18007/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi PackageInfo{28a7fbf com.github.shadowsocks}
+2020-07-18 13:47:31.050 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+2020-07-18 13:47:31.051 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+2020-07-18 13:47:31.052 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+2020-07-18 13:47:31.053 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+2020-07-18 13:47:31.076 17952-18007/com.github.shadowsocks V/FA: Connection attempt already in progress
+2020-07-18 13:47:31.091 17952-17952/com.github.shadowsocks D/HwGalleryCacheManagerImpl: mIsEffect:false
+2020-07-18 13:47:31.091 17952-18007/com.github.shadowsocks I/FA: Tag Manager is not found and thus will not be used
+2020-07-18 13:47:31.153 17952-18007/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi PackageInfo{28a7fbf com.github.shadowsocks}
+2020-07-18 13:47:31.213 17952-18007/com.github.shadowsocks V/FA: Connection attempt already in progress
+2020-07-18 13:47:31.227 17952-18007/com.github.shadowsocks I/HwApiCacheMangerEx: apicache pi PackageInfo{28a7fbf com.github.shadowsocks}
+2020-07-18 13:47:31.254 17952-18007/com.github.shadowsocks V/FA: Connection attempt already in progress
+2020-07-18 13:47:31.299 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+2020-07-18 13:47:31.300 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+2020-07-18 13:47:31.301 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+2020-07-18 13:47:31.302 17952-17952/com.github.shadowsocks D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+2020-07-18 13:47:31.533 17952-17952/com.github.shadowsocks D/ActivityThread: add activity client record, r= ActivityRecord{122bf15 token=android.os.BinderProxy@4ff6a45 {com.github.shadowsocks/com.github.shadowsocks.MainActivity}} token= android.os.BinderProxy@4ff6a45
+2020-07-18 13:47:31.537 17952-17957/com.github.shadowsocks I/zygote64: Do partial code cache collection, code=59KB, data=52KB
+2020-07-18 13:47:31.538 17952-17957/com.github.shadowsocks I/zygote64: After code cache collection, code=59KB, data=52KB
+2020-07-18 13:47:31.538 17952-17957/com.github.shadowsocks I/zygote64: Increasing code cache capacity to 256KB
+2020-07-18 13:47:31.539 17952-17957/com.github.shadowsocks I/zygote64: Compiler allocated 8MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+2020-07-18 13:47:31.558 17952-17952/com.github.shadowsocks D/OpenGLRenderer:   HWUI Binary is  enabled
+2020-07-18 13:47:31.561 17952-18313/com.github.shadowsocks D/OpenGLRenderer: HWUI GL Pipeline
+2020-07-18 13:47:31.617 17952-17952/com.github.shadowsocks I/PressGestureDetector: onAttached begin
+2020-07-18 13:47:31.619 17952-17952/com.github.shadowsocks I/PressGestureDetector: onAttached end
+2020-07-18 13:47:31.620 17952-18329/com.github.shadowsocks I/PressGestureDetector: enabledInPad = false,isPcCastMode = false
+2020-07-18 13:47:31.757 17952-18313/com.github.shadowsocks I/OpenGLRenderer: Initialized EGL, version 1.4
+2020-07-18 13:47:31.757 17952-18313/com.github.shadowsocks D/OpenGLRenderer: Swap behavior 2
+2020-07-18 13:47:31.771 17952-18313/com.github.shadowsocks D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+2020-07-18 13:47:31.898 17952-17957/com.github.shadowsocks I/zygote64: Do full code cache collection, code=122KB, data=97KB
+2020-07-18 13:47:31.899 17952-17957/com.github.shadowsocks I/zygote64: After code cache collection, code=110KB, data=72KB
+2020-07-18 13:47:40.210 17952-17993/com.github.shadowsocks W/Fabric: Could not call getAdvertisingIdInfo on com.google.android.gms.ads.identifier.AdvertisingIdClient
+2020-07-18 13:47:40.211 17952-17993/com.github.shadowsocks W/Fabric: Could not call getId on com.google.android.gms.ads.identifier.AdvertisingIdClient$Info
+2020-07-18 13:47:40.214 17952-17993/com.github.shadowsocks W/ContextImpl: Failed to ensure /data/user/0/com.google.android.gms/shared_prefs: mkdir failed: EACCES (Permission denied)
+2020-07-18 13:47:47.057 17952-17976/com.github.shadowsocks I/ActivityThread: Removing dead content provider:android.content.ContentProviderProxy@ab1323d
+2020-07-18 13:47:47.057 17952-17976/com.github.shadowsocks I/ActivityThread: Removing dead content provider:android.content.ContentProviderProxy@ab1323d
+2020-07-18 13:47:50.277 17952-17993/com.github.shadowsocks W/Fabric: Could not call getAdvertisingIdInfo on com.google.android.gms.ads.identifier.AdvertisingIdClient
+2020-07-18 13:47:50.278 17952-17993/com.github.shadowsocks W/Fabric: Could not call isLimitAdTrackingEnabled on com.google.android.gms.ads.identifier.AdvertisingIdClient$Info
+2020-07-18 13:47:50.554 17952-17979/com.github.shadowsocks D/NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: true
+2020-07-18 13:47:51.332 17952-17979/com.github.shadowsocks D/skia: --- SkAndroidCodec::NewFromStream returned null
+2020-07-18 13:48:00.820 17952-18080/? W/FirebaseInstanceId: Token retrieval failed without exception message. Will retry token retrieval
