@@ -12,6 +12,8 @@ for Android & Chrome OS ([beta](https://play.google.com/apps/testing/com.github.
 <a href="https://play.google.com/store/apps/details?id=com.github.shadowsocks.tv"><img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="48"></a>
 for Android TV ([beta](https://play.google.com/apps/testing/com.github.shadowsocks.tv))
 
+mkdir ./mobile/build/intermediates/merged_manifests/debug/universal
+cp ./mobile/build/intermediates/merged_manifests/debug/arm64-v8a/AndroidManifest.xml ./mobile/build/intermediates/merged_manifests/debug/universal/AndroidManifest.xml
 
 ### PREREQUISITES
 
